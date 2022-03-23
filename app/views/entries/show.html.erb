@@ -29,7 +29,9 @@
 <div class="columns is-mobile">
   <div class="column">
       <%= link_to "Edit", edit_entry_path(@entry), class: "button is-gray" %>
-      <%= link_to "Delete", entries_path(@entry), class: "button is-red" %>
+      <%= link_to "Delete", entries_path(@entry), method: :delete,data: {confirm: "Are you sure?"}, class: "button is-gray" %>
+    </div>
+    <div class="column">
     </div>
     </div>
   </div>
