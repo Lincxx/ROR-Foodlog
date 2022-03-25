@@ -1,3 +1,3 @@
 # WIP Food Log
 
-### left off at https://youtu.be/B3Fbujmgo60?t=6696
+### left off at https://youtu.be/B3Fbujmgo60?t=7316
